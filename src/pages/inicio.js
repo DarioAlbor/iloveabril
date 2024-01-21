@@ -1,14 +1,10 @@
 import React from 'react';
-import Encuesta from '../components/encuesta';
+import Ventajas from '../components/ventajas';
 
 const Inicio = () => {
-  const handleNoClick = () => {
-    console.log('No se quieren panchitos :(');
-  };
-
   return (
     <div>
-      <Encuesta onNoClick={handleNoClick} />
+      <Ventajas />
     </div>
   );
 };
