@@ -6,23 +6,18 @@ import {
   Flex,
   Icon,
   useColorModeValue,
-  Text,
   Drawer,
   DrawerContent,
   useDisclosure,
-  BoxProps,
   FlexProps,
   Tooltip,
 } from '@chakra-ui/react';
 import {
   FiHome,
-  FiTrendingUp,
-  FiCompass,
   FiStar,
   FiSettings,
   FiMenu,
 } from 'react-icons/fi';
-import { IconType } from 'react-icons';
 import { GiCrownedHeart } from "react-icons/gi";
 import { TbMusicHeart } from "react-icons/tb";
 import { SiTinyletter } from "react-icons/si";
